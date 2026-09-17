@@ -6,9 +6,15 @@ A visible local browser with persistent, isolated workspaces and human control�
 
 [Download](https://hronaut.dev/download) · [Set up your agent](https://hronaut.dev/setup) · [Ask a question](https://github.com/orgs/hronaut/discussions) · [Explore the source](https://github.com/hronaut/hronaut)
 
-[![Hronaut — a visible, persistent browser for coding agents](https://hronaut.dev/hronaut-social-card-v1-11-56.png)](https://hronaut.dev/#demo)
+## See a workspace survive a client disconnect
 
-*Product overview image; earlier UI shown.*
+[![Real Hronaut 2.4.24 demo: the same checked local page after private-key workspace resume](https://raw.githubusercontent.com/hronaut/.github/main/profile/media/hronaut-workspace-continuity-2.4.24-poster.png)](https://github.com/hronaut/.github/blob/main/profile/media/hronaut-workspace-continuity-2.4.24.mp4)
+
+[34-second video (MP4)](https://github.com/hronaut/.github/raw/refs/heads/main/profile/media/hronaut-workspace-continuity-2.4.24.mp4) · [Captions](https://github.com/hronaut/.github/blob/main/profile/media/hronaut-workspace-continuity-2.4.24.srt) · [What was tested](https://github.com/hronaut/.github/blob/main/profile/media/README.md)
+
+Client A disconnects; the tab and checked state remain. A new connection cannot access the workspace by ID alone. Its private resume key restores access to the same tab.
+
+*Real Hronaut 2.4.24 source-build footage at original speed, using a synthetic local page and MCP SDK test clients. Not an installer, named AI-client, app-restart, real-login or wallet test.*
 
 ## Make browser work repeatable
 

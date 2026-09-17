@@ -1,0 +1,31 @@
+1
+00:00:00,000 --> 00:00:02,000
+Hronaut: A new client. The same browser work.
+
+2
+00:00:02,000 --> 00:00:05,890
+Real Hronaut 2.4.24 · isolated source build
+
+3
+00:00:05,890 --> 00:00:10,434
+Client A opens a fresh, isolated workspace
+
+4
+00:00:10,434 --> 00:00:14,952
+The client checks the local example page
+
+5
+00:00:14,952 --> 00:00:19,995
+Client A disconnects. The tab and checked state remain
+
+6
+00:00:19,995 --> 00:00:25,022
+A new connection does not inherit workspace access
+
+7
+00:00:25,022 --> 00:00:31,000
+The private resume key restores access to the same workspace
+
+8
+00:00:31,000 --> 00:00:34,000
+Keep the workspace. Resume with its private key. hronaut.dev/setup
