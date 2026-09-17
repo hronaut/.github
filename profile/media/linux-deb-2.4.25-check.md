@@ -4,6 +4,8 @@
 
 This is separate from the **2.4.24 source-build videos**. Their versions and test limits have not changed.
 
+A later [mcp-use client-library check](mcp-use-client-check.md) repeats the workflow through `@mcp-use/client` 2.3.1 with its own result and connection example. The evidence below remains the original MCP SDK-only run.
+
 ## What ran
 
 The actual [v2.4.25 release package](https://github.com/hronaut/hronaut/releases/tag/v2.4.25), not a replacement source build:

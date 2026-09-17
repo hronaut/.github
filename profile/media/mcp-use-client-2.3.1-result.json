@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "executedAt": "2026-09-17T21:49:59.935Z",
+  "passed": true,
+  "stage": "complete",
+  "checks": [
+    "deb_configured_version_2_4_25",
+    "actual_packaged_app_launches_as_nonroot",
+    "default_loopback_health_ready",
+    "home_opens_through_visible_control",
+    "actual_mcp_use_client_http_connects",
+    "required_browser_tools_discovered",
+    "scratch_workspace_created_with_private_capability",
+    "synthetic_local_page_opened",
+    "initial_snapshot_verified",
+    "mcp_click_dom_storage_and_fresh_snapshot_agree",
+    "visible_state_survives_client_disconnect",
+    "new_client_does_not_inherit_workspace_list",
+    "workspace_id_alone_denied_after_reconnect",
+    "private_capability_resumes_workspace",
+    "same_tab_and_checked_result_after_reconnect",
+    "packaged_app_restarts_same_disposable_profile",
+    "restart_client_does_not_inherit_workspace_list",
+    "workspace_id_alone_denied_after_app_restart",
+    "private_capability_valid_after_clean_app_restart",
+    "original_tab_identity_restored_after_app_restart",
+    "dom_storage_and_snapshot_retained_after_app_restart"
+  ],
+  "version": {
+    "version": "2.4.25",
+    "packaged": true
+  },
+  "artifact": {
+    "name": "hronaut-2.4.25-amd64.deb",
+    "bytes": 115640352,
+    "sha256": "b9855ad99c1c1cc047cd3597b22e1e31d1c968e9dc22a43d95dc36a9606c63db"
+  },
+  "clientPackage": {
+    "name": "@mcp-use/client",
+    "version": "2.3.1",
+    "telemetryDisabled": true,
+    "oauthDisabled": true
+  },
+  "negotiations": [
+    {
+      "client": "mcp-use evaluator A",
+      "protocolEra": "legacy",
+      "protocolVersion": "2025-11-25"
+    },
+    {
+      "client": "mcp-use evaluator B",
+      "protocolEra": "legacy",
+      "protocolVersion": "2025-11-25"
+    },
+    {
+      "client": "mcp-use evaluator C",
+      "protocolEra": "legacy",
+      "protocolVersion": "2025-11-25"
+    }
+  ],
+  "nodeVersion": "v24.18.1",
+  "uid": 1000,
+  "environment": "Ubuntu 24.04 Docker/Xvfb, network none, no published ports, fresh disposable profile",
+  "limitations": [
+    "Container-only --no-sandbox; native desktop sandbox/AppArmor/FUSE integration not tested",
+    "Default unauthenticated loopback MCP only; no authenticated first-run or MCPB desktop host installation",
+    "Actual @mcp-use/client 2.3.1 library, not an LLM agent, React hook, browser-side client, OAuth or named coding-agent end-to-end run",
+    "Synthetic local page; no user accounts, wallets or external websites",
+    "Clean app restart only, not crash/power-loss recovery, upgrade, uninstall or full regression/security suite",
+    "Packaged Linux amd64 .deb only; no Windows, macOS, ARM, RPM or AppImage runtime claim"
+  ]
+}
