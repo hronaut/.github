@@ -6,6 +6,8 @@ This is separate from the **2.4.24 source-build videos**. Their versions and tes
 
 A later [mcp-use client-library check](mcp-use-client-check.md) repeats the workflow through `@mcp-use/client` 2.3.1 with its own result and connection example. The evidence below remains the original MCP SDK-only run.
 
+A separate [Kilo 7.7.3 protected global-connection check](kilo-marketplace-check.md) exercises the real local-server marketplace install path and actual Kilo MCP client, with an explicit project-header exclusion. It is not a VS Code marketplace UI or LLM-agent test.
+
 ## What ran
 
 The actual [v2.4.25 release package](https://github.com/hronaut/hronaut/releases/tag/v2.4.25), not a replacement source build:

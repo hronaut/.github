@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "executedAt": "2026-09-17T23:37:45.169Z",
+  "passed": true,
+  "stage": "complete",
+  "versions": {
+    "kilo": "7.7.3",
+    "hronaut": "2.4.25",
+    "node": "v24.18.1"
+  },
+  "checks": [
+    "released_kilo_7_7_3_and_installed_hronaut_2_4_25",
+    "fresh_authenticated_packaged_app_ready_and_no_token_health_denied",
+    "released_kilo_server_ready_with_local_basic_auth",
+    "explicit_permission_baselines_preserved_before_marketplace_action",
+    "actual_marketplace_project_install_normalizes_transport_and_preserves_settings",
+    "project_header_environment_reference_is_skipped_not_connected",
+    "duplicate_project_install_rejected_without_overwrite",
+    "marketplace_project_removal_preserves_unrelated_settings",
+    "actual_global_install_preserves_settings_and_keeps_scope_separate",
+    "global_kilo_connects_to_protected_hronaut_using_environment_reference",
+    "kilo_client_creates_disposable_workspace",
+    "kilo_client_opens_synthetic_local_page",
+    "kilo_reads_initial_browser_result",
+    "kilo_action_native_dom_storage_and_fresh_snapshot_agree",
+    "reconnected_kilo_client_does_not_inherit_workspaces",
+    "id_alone_denied_after_kilo_reconnect",
+    "explicit_capability_resume_retains_original_tab_and_result",
+    "global_removal_preserves_unrelated_settings",
+    "no_literal_test_credentials_in_captured_kilo_output"
+  ],
+  "environment": "non-root Ubuntu Docker/Xvfb; network none; no published ports; fresh disposable app/project/global config",
+  "limitations": [
+    "Kilo released server marketplace installation API, not VS Code marketplace UI or public catalogue acceptance",
+    "Tools invoked through Kilo experimental MCP Apps endpoint; not a model-driven agent or permission-prompt test",
+    "Hronaut container-only --no-sandbox; no native OS, other platform or security audit claim",
+    "Existing package installed in base image; no full newcomer app download/install walkthrough",
+    "Fresh generated disposable token; no owner credential/profile or external website",
+    "Client disconnect/resume only; no application restart in this check",
+    "Marketplace metadata generator not yet exercised"
+  ]
+}
