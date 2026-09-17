@@ -16,6 +16,8 @@ Client A disconnects; the tab and checked state remain. A new connection cannot 
 
 *Real Hronaut 2.4.24 source-build footage at original speed, using a synthetic local page and MCP SDK test clients. Not an installer, named AI-client, app-restart, real-login or wallet test.*
 
+Separate evidence: [the packaged Linux amd64 2.4.25 check](https://github.com/hronaut/.github/blob/main/profile/media/linux-deb-2.4.25-check.md) covers startup, MCP interaction and a clean app restart in an isolated container. It does not establish native desktop sandbox integration or other-platform compatibility.
+
 ## Make browser work repeatable
 
 - **Keep browser context:** resume named workspaces with their tabs and website state across coding-agent sessions.
