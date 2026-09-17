@@ -1,0 +1,47 @@
+1
+00:00:00,000 --> 00:00:02,000
+Hronaut local wallet QA: a transaction hash is not confirmation. Automated test.
+
+2
+00:00:02,000 --> 00:00:04,525
+Real Hronaut + Anvil. Disposable wallet already configured.
+
+3
+00:00:04,525 --> 00:00:07,096
+The local fixture discovers Hronaut’s own provider.
+
+4
+00:00:07,096 --> 00:00:10,211
+Account access opens trusted Hronaut approval.
+
+5
+00:00:10,211 --> 00:00:14,555
+Rejected: 4001, no account. A fresh request needs approval.
+
+6
+00:00:14,555 --> 00:00:17,233
+Operator-test approval grants one disposable account.
+
+7
+00:00:17,233 --> 00:00:21,308
+A simulated 1 wei request still needs trusted approval.
+
+8
+00:00:21,308 --> 00:00:26,576
+Rejected: no submission. A fresh attempt needs a new approval.
+
+9
+00:00:26,576 --> 00:00:29,714
+Approved and submitted. A hash is not confirmation.
+
+10
+00:00:29,714 --> 00:00:36,729
+Read the same hash while pending, then after mining. No resend.
+
+11
+00:00:36,729 --> 00:00:41,667
+Mine once, read the same hash: confirmed with status 0x1.
+
+12
+00:00:41,667 --> 00:00:44,667
+Read the receipt. Keep the approval boundary. Hronaut’s own provider; local EVM only.
