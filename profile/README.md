@@ -10,7 +10,7 @@ A visible local browser with persistent, isolated workspaces and human control鈥
 
 [![Real Hronaut 2.4.24 demo: the same checked local page after private-key workspace resume](https://raw.githubusercontent.com/hronaut/.github/main/profile/media/hronaut-workspace-continuity-2.4.24-poster.png)](https://github.com/hronaut/.github/blob/main/profile/media/hronaut-workspace-continuity-2.4.24.mp4)
 
-[34-second video (MP4)](https://github.com/hronaut/.github/raw/refs/heads/main/profile/media/hronaut-workspace-continuity-2.4.24.mp4) 路 [Captions](https://github.com/hronaut/.github/blob/main/profile/media/hronaut-workspace-continuity-2.4.24.srt) 路 [What was tested](https://github.com/hronaut/.github/blob/main/profile/media/README.md)
+[Watch on YouTube](https://youtu.be/nI2vJk_UfTE) 路 [Download the 34-second MP4](https://github.com/hronaut/.github/raw/refs/heads/main/profile/media/hronaut-workspace-continuity-2.4.24.mp4) 路 [Captions](https://github.com/hronaut/.github/blob/main/profile/media/hronaut-workspace-continuity-2.4.24.srt) 路 [What was tested](https://github.com/hronaut/.github/blob/main/profile/media/README.md)
 
 Client A disconnects; the tab and checked state remain. A new connection cannot access the workspace by ID alone. Its private resume key restores access to the same tab.
 
