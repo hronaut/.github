@@ -6,7 +6,7 @@ A visible local browser with persistent, isolated workspaces and human control�
 
 [Download](https://hronaut.dev/download) · [Set up your agent](https://hronaut.dev/setup) · [Ask a question](https://github.com/orgs/hronaut/discussions) · [Explore the source](https://github.com/hronaut/hronaut)
 
-**Current release: [v2.5.1](https://github.com/hronaut/hronaut/releases/tag/v2.5.1).**
+**Current release: [v2.5.2](https://github.com/hronaut/hronaut/releases/tag/v2.5.2).**
 
 ## See a workspace survive a client disconnect
 
@@ -36,9 +36,9 @@ Your agent owns task planning and memory. Hronaut supplies the local browser and
 
 Real 2.4.24 source-build footage: reject, submit, read a pending receipt, then confirm the same hash after local mining. The automated test harness clicks the trusted operator controls; an MCP agent does not approve itself. Disposable local EVM only, not an installer or external-wallet compatibility test.
 
-Start with the [disposable local EVM quickstart](https://github.com/hronaut/hronaut/blob/v2.5.1/docs/WALLET_QA_QUICKSTART.md): discover a provider, connect or reject, change accounts/networks, and distinguish submitted transactions from confirmed or reverted receipts. The clip tests a subset, not every guide step.
+Start with the [disposable local EVM quickstart](https://github.com/hronaut/hronaut/blob/v2.5.2/docs/WALLET_QA_QUICKSTART.md): discover a provider, connect or reject, change accounts/networks, and distinguish submitted transactions from confirmed or reverted receipts. The clip tests a subset, not every guide step.
 
-Hronaut's built-in wallet providers are a shipped preview, not MetaMask/Phantom/TronLink emulation or WalletConnect/Reown. The EVM guide uses Anvil and human setup/approval; it does not establish Solana/Tron or real-extension test coverage. Use disposable accounts and no real funds. [Wallet capabilities and limits](https://github.com/hronaut/hronaut/blob/v2.5.1/docs/WALLETS.md).
+Hronaut's built-in wallet providers are a shipped preview, not MetaMask/Phantom/TronLink emulation or WalletConnect/Reown. The EVM guide uses Anvil and human setup/approval; it does not establish Solana/Tron or real-extension test coverage. Use disposable accounts and no real funds. [Wallet capabilities and limits](https://github.com/hronaut/hronaut/blob/v2.5.2/docs/WALLETS.md).
 
 ## Build with us
 
