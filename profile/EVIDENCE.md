@@ -1,12 +1,12 @@
 # Evidence and test scope
 
-What each Hronaut recording shows, which build it used, and what it does not prove. The current release may be newer than a recorded build: [latest release](https://github.com/hronaut/hronaut/releases/latest). Treat the version label and the limits below as part of the evidence.
+What each Hronaut recording shows, when it was made, and what it does not prove. The [latest release](https://github.com/hronaut/hronaut/releases/latest) may be newer than a recording. Treat the recording date and the limits below as part of the evidence.
 
 ## Product tour (38 seconds)
 
-[Watch on hronaut.dev](https://hronaut.dev/#demo) · [Download the MP4](https://hronaut.dev/hronaut-tour-3.3.1-cyber-20261021.mp4)
+[Watch on hronaut.dev](https://hronaut.dev/#demo)
 
-Recorded on October 21, 2026 at normal speed from an unmodified Hronaut **3.3.1** source build, Cyberpunk theme.
+A real Hronaut recording from an unmodified source build, made on October 21, 2026 at normal speed in the Cyberpunk theme.
 
 An agent connects to Hronaut over local MCP, creates an isolated workspace called Checkout QA and opens a local example cart. It reads the page, adds one notebook so the total becomes $36.00, and opens the review step. It then asks for a person, and the tab is marked for attention. A person types a review note and confirms the review in the same tab; the page says no payment was sent.
 
@@ -20,7 +20,7 @@ Hronaut Home shows one active MCP session. The first agent disconnects and the c
 
 ## Other recordings on hronaut.dev
 
-All recorded on October 21, 2026 at normal speed from a Hronaut **3.3.1** source build.
+Real Hronaut recordings from a source build, made on October 21, 2026 at normal speed.
 
 | Recording | What it shows | Limits |
 | --- | --- | --- |

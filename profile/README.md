@@ -14,7 +14,7 @@
 
 [Watch the 38-second tour](https://hronaut.dev/#demo) · [Evidence and test scope](https://github.com/hronaut/.github/blob/main/profile/EVIDENCE.md)
 
-- **Your personal Chrome stays out.** The agent never sees your email, bank or admin sessions.
+- **Your everyday Chrome stays out of it.** Agents work in Hronaut, not in the Chrome with your email and bank.
 - **One workspace per project.** Each keeps its own cookies and sign-ins.
 - **Watch it, pause it, take over.** Do the login or 2FA yourself, then hand the tab back.
 
