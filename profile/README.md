@@ -1,49 +1,31 @@
-# Hronaut
+<a href="https://hronaut.dev"><img src="https://raw.githubusercontent.com/hronaut/.github/main/profile/media/hronaut-banner.png" width="100%" alt="Hronaut. One browser per project. Never your own Chrome. A separate, visible browser for every project your coding agent touches."></a>
 
-### The browser your coding agent can come back to.
+<p align="center">
+  <a href="https://hronaut.dev/download"><b>Start 10-day free trial</b></a> ·
+  <a href="https://hronaut.dev/setup">Connect your agent</a> ·
+  <a href="https://github.com/hronaut/hronaut">Source</a> ·
+  <a href="https://github.com/orgs/hronaut/discussions">Discussions</a>
+  <br><br>
+  <a href="https://github.com/hronaut/hronaut/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/hronaut/hronaut?sort=semver&display_name=tag&label=latest%20release&labelColor=12081f&color=7b2cff&style=flat-square"></a>
+  <img alt="Windows, macOS and Linux" src="https://img.shields.io/badge/Windows%20%C2%B7%20macOS%20%C2%B7%20Linux-12081f?style=flat-square">
+</p>
 
-A visible local browser with persistent, isolated workspaces and human control—connected to your coding agent through MCP.
+[![Watch the 38-second tour: an agent checks a local cart, asks you to confirm, and a second agent resumes the same workspace](https://raw.githubusercontent.com/hronaut/.github/main/profile/media/hronaut-tour-poster.jpg)](https://hronaut.dev/#demo)
 
-[Download](https://hronaut.dev/download) · [Set up your agent](https://hronaut.dev/setup) · [Ask a question](https://github.com/orgs/hronaut/discussions) · [Explore the source](https://github.com/hronaut/hronaut)
+[Watch the 38-second tour](https://hronaut.dev/#demo) · [Evidence and test scope](https://github.com/hronaut/.github/blob/main/profile/EVIDENCE.md)
 
-**Current release: [v2.5.2](https://github.com/hronaut/hronaut/releases/tag/v2.5.2).**
+- **Your personal Chrome stays out.** The agent never sees your email, bank or admin sessions.
+- **One workspace per project.** Each keeps its own cookies and sign-ins.
+- **Watch it, pause it, take over.** Do the login or 2FA yourself, then hand the tab back.
 
-## See a workspace survive a client disconnect
+Works with the agent you already use: [Codex](https://hronaut.dev/codex-browser-mcp) · [Claude Code](https://hronaut.dev/claude-code-browser-mcp) · [Cursor](https://hronaut.dev/cursor-browser-mcp) · [VS Code / Copilot](https://hronaut.dev/github-copilot-browser-mcp) · [Gemini CLI](https://hronaut.dev/gemini-cli-browser-mcp) · [OpenCode](https://hronaut.dev/opencode-browser-mcp) · [more](https://hronaut.dev/setup)
 
-[![Real Hronaut 2.4.24 demo: the same checked local page after private-key workspace resume](https://raw.githubusercontent.com/hronaut/.github/main/profile/media/hronaut-workspace-continuity-2.4.24-poster.png)](https://github.com/hronaut/.github/blob/main/profile/media/hronaut-workspace-continuity-2.4.24.mp4)
+### Repositories
 
-[Watch on YouTube](https://youtu.be/nI2vJk_UfTE) · [Download the 34-second MP4](https://github.com/hronaut/.github/raw/refs/heads/main/profile/media/hronaut-workspace-continuity-2.4.24.mp4) · [Captions](https://github.com/hronaut/.github/blob/main/profile/media/hronaut-workspace-continuity-2.4.24.srt) · [What was tested](https://github.com/hronaut/.github/blob/main/profile/media/README.md)
+- [**hronaut**](https://github.com/hronaut/hronaut): the desktop app for Windows, macOS and Linux.
+- [**hronaut-claude-plugin**](https://github.com/hronaut/hronaut-claude-plugin): the Claude Code plugin. Add it with `/plugin marketplace add hronaut/hronaut-claude-plugin`.
+- [**hronaut-vscode**](https://github.com/hronaut/hronaut-vscode): the VS Code extension, also on the [Marketplace](https://marketplace.visualstudio.com/items?itemName=hronaut.hronaut).
 
-Client A disconnects; the tab and checked state remain. A new connection cannot access the workspace by ID alone. Its private resume key restores access to the same tab.
+10-day free trial, no card. Then $4/month or $24/year per named user. Source available for audit and local builds under the [Hronaut license](https://github.com/hronaut/hronaut/blob/main/LICENSE).
 
-*Real Hronaut 2.4.24 source-build footage at original speed, using a synthetic local page and MCP SDK test clients. Not an installer, named AI-client, app-restart, real-login or wallet test.*
-
-Separate evidence: [the packaged Linux amd64 2.4.25 check](https://github.com/hronaut/.github/blob/main/profile/media/linux-deb-2.4.25-check.md) covers startup, MCP interaction and a clean app restart in an isolated container. It does not establish native desktop sandbox integration or other-platform compatibility.
-
-## Make browser work repeatable
-
-- **Keep browser context:** resume named workspaces with their tabs and website state across coding-agent sessions.
-- **Test web apps:** inspect a page, exercise a bounded workflow, and check the actual result in a visible Chromium browser.
-- **Stay in control:** watch, pause and take over for sign-in, MFA and consequential manual steps.
-
-Your agent owns task planning and memory. Hronaut supplies the local browser and MCP tools—not a hosted browser fleet or a native-desktop automation layer.
-
-## Web3 wallet and dApp QA
-
-[![Real local EVM test: trusted Hronaut approval for a disposable Anvil transaction](https://raw.githubusercontent.com/hronaut/.github/main/profile/media/hronaut-wallet-qa-2.4.24-poster.png)](https://github.com/hronaut/.github/blob/main/profile/media/hronaut-wallet-qa-2.4.24.mp4)
-
-[Watch the local EVM demo (about 45 seconds)](https://github.com/hronaut/.github/raw/refs/heads/main/profile/media/hronaut-wallet-qa-2.4.24.mp4) · [Captions](https://github.com/hronaut/.github/blob/main/profile/media/hronaut-wallet-qa-2.4.24.srt) · [Test scope and operator-role disclosure](https://github.com/hronaut/.github/blob/main/profile/media/wallet-qa.md)
-
-Real 2.4.24 source-build footage: reject, submit, read a pending receipt, then confirm the same hash after local mining. The automated test harness clicks the trusted operator controls; an MCP agent does not approve itself. Disposable local EVM only, not an installer or external-wallet compatibility test.
-
-Start with the [disposable local EVM quickstart](https://github.com/hronaut/hronaut/blob/v2.5.2/docs/WALLET_QA_QUICKSTART.md): discover a provider, connect or reject, change accounts/networks, and distinguish submitted transactions from confirmed or reverted receipts. The clip tests a subset, not every guide step.
-
-Hronaut's built-in wallet providers are a shipped preview, not MetaMask/Phantom/TronLink emulation or WalletConnect/Reown. The EVM guide uses Anvil and human setup/approval; it does not establish Solana/Tron or real-extension test coverage. Use disposable accounts and no real funds. [Wallet capabilities and limits](https://github.com/hronaut/hronaut/blob/v2.5.2/docs/WALLETS.md).
-
-## Build with us
-
-[Start here](https://github.com/orgs/hronaut/discussions/201) for workflow questions, ideas and small working examples. Share a public or synthetic reproduction; keep credentials, wallet recovery material and customer data out of posts.
-
-[Report a non-sensitive bug](https://github.com/hronaut/hronaut/issues) · [Report a vulnerability privately](https://github.com/hronaut/hronaut/security/advisories/new) · [Follow @Hronaut](https://x.com/Hronaut)
-
-Windows, macOS and Linux. Source-available under the [Hronaut Subscription and Trial License](https://github.com/hronaut/hronaut/blob/main/LICENSE): one **10-day trial**, then **$4/month or $24/year per named user**. Not OSI open source. Desktop releases are currently unsigned/not Apple-notarized; [verify your download](https://hronaut.dev/security#verify-release).
+[Security and releases](https://hronaut.dev/security) · [Report a bug](https://github.com/hronaut/hronaut/issues) · [Report a vulnerability](https://github.com/hronaut/hronaut/security/advisories/new) · [X](https://x.com/Hronaut) · [Bluesky](https://bsky.app/profile/hronaut.bsky.social) · [YouTube](https://www.youtube.com/@Hronaut)
