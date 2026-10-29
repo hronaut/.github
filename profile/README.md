@@ -1,4 +1,4 @@
-<a href="https://hronaut.dev"><img src="https://raw.githubusercontent.com/hronaut/.github/main/profile/media/hronaut-banner.png" width="100%" alt="Hronaut. One browser per project. Never your own Chrome. A separate, visible browser for every project your coding agent touches."></a>
+<a href="https://hronaut.dev"><img src="https://raw.githubusercontent.com/hronaut/.github/main/profile/media/hronaut-banner.png" width="100%" alt="Hronaut. Give your coding agent its own browser. Keep yours. A visible desktop browser for coding agents, with a separate workspace for each project."></a>
 
 <p align="center">
   <a href="https://hronaut.dev/download"><b>Start 10-day free trial</b></a> ·
@@ -24,7 +24,8 @@ Works with the agent you already use: [Codex](https://hronaut.dev/codex-browser-
 
 - [**hronaut**](https://github.com/hronaut/hronaut): the desktop app for Windows, macOS and Linux.
 - [**hronaut-claude-plugin**](https://github.com/hronaut/hronaut-claude-plugin): the Claude Code plugin. Add it with `/plugin marketplace add hronaut/hronaut-claude-plugin`.
-- [**hronaut-vscode**](https://github.com/hronaut/hronaut-vscode): the VS Code extension, also on the [Marketplace](https://marketplace.visualstudio.com/items?itemName=hronaut.hronaut).
+- [**hronaut-codex-plugin**](https://github.com/hronaut/hronaut-codex-plugin): the Codex plugin. Add it with `codex plugin marketplace add hronaut/hronaut-codex-plugin`.
+- [**hronaut-vscode**](https://github.com/hronaut/hronaut-vscode): the VS Code extension, also on the [Marketplace](https://marketplace.visualstudio.com/items?itemName=hronaut.hronaut) and [Open VSX](https://open-vsx.org/extension/hronaut/hronaut).
 
 10-day free trial, no card. Then $4/month or $24/year per named user. Source available for audit and local builds under the [Hronaut license](https://github.com/hronaut/hronaut/blob/main/LICENSE).
 
